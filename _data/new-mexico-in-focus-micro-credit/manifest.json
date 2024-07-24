@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://owencking.github.io/micro-credit-swt-01/new-mexico-in-focus-micro-credit/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "New Mexico In Focus: Micro-Credit" ] },
+    "homepage": [
+      {
+        "id": "https://americanarchive.org/catalog/cpb-aacip-b45eb62bd60",
+        "type": "Text",
+        "label": { "en": [ "New Mexico In Focus: Micro-Credit" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://americanarchive.org/",
+        "type": "Agent",
+        "label": { "en": [ "American Archive of Public Broadcasting / KNME" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://owencking.github.io/micro-credit-swt-01/new-mexico-in-focus-micro-credit/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1629.0,
+        "items": [
+          {
+            "id": "https://owencking.github.io/micro-credit-swt-01/new-mexico-in-focus-micro-credit/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://owencking.github.io/micro-credit-swt-01/new-mexico-in-focus-micro-credit/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://samething.net/cpb-aacip-b45eb62bd60.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 1629.0
+                },
+                "target": "https://owencking.github.io/micro-credit-swt-01/new-mexico-in-focus-micro-credit/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
